@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Radio Canada";
+    background-image: url(./IMG/chiefkeef.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 700px;
+}
+
+.header {
+    background: #5D576B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+
+.logo {
+    height: 90%;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.items {
+    background-color: black;
+    color: #5D576B;
+    border-radius: 40px;
+    padding: 15px;
+}
+
+.links:hover {
+    text-decoration: line-through;
+    transform: scale(1.3);
+    transition: all 0.5s;
+}
